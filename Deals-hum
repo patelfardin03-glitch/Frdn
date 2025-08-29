@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deals Hub</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background: #ff6f61; color: white; padding: 15px; text-align: center; }
+    nav { background: #333; }
+    nav a { color: white; padding: 14px 20px; display: inline-block; text-decoration: none; }
+    nav a:hover { background: #575757; }
+    .section { padding: 20px; }
+    .deal-card { border:1px solid #ccc; border-radius:5px; padding:10px; margin:10px; display:inline-block; width:200px; vertical-align: top; }
+    .deal-card img { width:100%; border-radius:5px; }
+    .deal-card a { display:block; text-align:center; margin-top:10px; background:#ff6f61; color:white; padding:8px; border-radius:5px; text-decoration:none; }
+    footer { background:#333; color:white; text-align:center; padding:10px; margin-top:20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Deals Hub</h1>
+  <p>Your go-to place for Fashion, Food & Travel deals!</p>
+</header>
+
+<nav>
+  <a href="#fashion">Fashion</a>
+  <a href="#food">Food</a>
+  <a href="#travel">Travel</a>
+</nav>
+
+<div class="section" id="fashion">
+  <h2>Fashion Deals</h2>
+  <div class="deal-card">
+    <img src="https://via.placeholder.com/200x150.png?text=Fashion+Item+1" alt="Fashion Item 1">
+    <p>Cool T-Shirt</p>
+    <a href="YOUR_AFFILIATE_LINK" target="_blank">Buy Now</a>
+  </div>
+  <div class="deal-card">
+    <img src="https://via.placeholder.com/200x150.png?text=Fashion+Item+2" alt="Fashion Item 2">
+    <p>Stylish Jacket</p>
+    <a href="YOUR_AFFILIATE_LINK" target="_blank">Buy Now</a>
+  </div>
+</div>
+
+<div class="section" id="food">
+  <h2>Food Deals</h2>
+  <div class="deal-card">
+    <img src="https://via.placeholder.com/200x150.png?text=Food+Item+1" alt="Food Item 1">
+    <p>Pizza Combo</p>
+    <a href="YOUR_AFFILIATE_LINK" target="_blank">Order Now</a>
+  </div>
+  <div class="deal-card">
+    <img src="https://via.placeholder.com/200x150.png?text=Food+Item+2" alt="Food Item 2">
+    <p>Burger Meal</p>
+    <a href="YOUR_AFFILIATE_LINK" target="_blank">Order Now</a>
+  </div>
+</div>
+
+<div class="section" id="travel">
+  <h2>Travel Deals</h2>
+  <div class="deal-card">
+    <img src="https://via.placeholder.com/200x150.png?text=Travel+1" alt="Travel 1">
+    <p>Flight to Goa</p>
+    <a href="YOUR_AFFILIATE_LINK" target="_blank">Book Now</a>
+  </div>
+  <div class="deal-card">
+    <img src="https://via.placeholder.com/200x150.png?text=Travel+2" alt="Travel 2">
+    <p>Hotel Stay</p>
+    <a href="YOUR_AFFILIATE_LINK" target="_blank">Book Now</a>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Deals Hub | Your Affiliate Deals Portal</p>
+</footer>
+
+</body>
+</html>
